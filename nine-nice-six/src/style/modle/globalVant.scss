@@ -1,0 +1,42 @@
+:root:root {
+    --van-white: #fff;
+    --van-blue: #1989fa;
+    --van-yellow: #fa7719;
+    --van-black0:#000000e2;
+    --van-jin:#f6b56c;
+    --van-t1:#89ca96c1;
+    --van-font-size-ts:26px;
+    --van-channeltitle:#0a2b31;
+    --van-transparency: #fffffffff00;
+
+    --van-button-primary-color: var(--van-white);
+    --van-button-primary-background: var(--van-primary-color);
+    --van-tab-text-color:var(--van-white);
+    --van-tab-active-text-color: var(--van-yellow);
+    --van-nav-bar-text-color:var(--van-yellow);
+    --van-nav-bar-background:var(--van-channeltitle);
+    --van-nav-bar-title-text-color:var(--van-white);
+    --van-nav-bar-arrow-size:26px;
+    --van-nav-bar-title-font-size: var(--van-font-size-ts);
+    // --van-nav-bar-height: 40px;
+    --van-nav-bar-icon-color: #f6b56c;
+    --van-tabbar-background: var(--van-t1);
+    --van-tabs-nav-background:var(--van-t1);
+    --van-tabs-nav-background:var(--van-transparency);
+    --van-sidebar-background:var(--van-yellow);
+    --van-sidebar-selected-text-color:var(--van-blue);
+    --van-sidebar-text-color:var(--van-white);
+    // --van-sidebar-selected-text-color:var(--van-yellow);
+    --van-sidebar-selected-background: #34487c42;
+    --van-sidebar-background:var(--van-transparency);
+
+  }
+  .van-nav-bar__text{
+    color: var(--van-jin)
+    
+  }
+//   .van-nav-bar__right{
+//     font-size: 60px;
+//     padding:0 30px;
+    
+// }

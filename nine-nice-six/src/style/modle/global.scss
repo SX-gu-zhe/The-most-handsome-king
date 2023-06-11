@@ -1,0 +1,63 @@
+/* 清除所有标签默认的内外边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 去掉列表项目符号 */
+
+li {
+    list-style: none;
+}
+
+
+/* 去掉超链接下划线，更改默认文字颜色 */
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* 用来设置浮动 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 清除浮动造成的影响，给父级添加 */
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* }更改行内块元素垂直方向对齐方式 */
+
+img,input {
+    vertical-align: middle;
+}
+/* 来解决3px的流白问题 */
+
+*img{display: block;}
+
+/* 移动端窗口自适应 */
+html,body,#app{
+    height: 100%;
+    box-sizing: border-box;
+  
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+  
